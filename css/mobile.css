@@ -1,0 +1,41 @@
+@media (max-width: 540px) {
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+
+    .main-video .video video {
+        margin-top: 0;
+    }
+
+    .main-video {
+        margin-top: 100px;
+        height: 150px;
+    }
+
+    .grid .item {
+        height: 200px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .grid-work {
+        margin-top: -500px;
+    }
+}
+
+/* 
+    max-width: 580px = mobile
+    max-width: 900px = tablet
+    max-width: 1440px = laptop
+    max-width: 1920px = desktop
+    max-width: 2560px = wide
+
+    min-width: 580px = tablet
+    min-width: 900px = laptop
+    min-width: 1440px = desktop
+    min-width: 1920px = wide
+    min-width: 2560px = ultrawide
+*/
